@@ -1,0 +1,40 @@
+2.)
+import java.util.*;
+public class Main{
+    public static void main(String args[]){
+        int day=85;
+        int msg=10;
+        int call=3000;
+        float data=2.0f;
+        Scanner sc = new Scanner(System.in);
+            int a=sc.nextInt();
+            if(a>=day){
+                System.out.println("plan is expired");
+            }
+          
+            if(a<day){
+            int b=sc.nextInt();
+            int c=sc.nextInt();
+            float d=sc.nextFloat();
+                System.out.println(day-a);
+             if(b<msg){
+                System.out.println(msg-b);
+            }
+            if(b>=msg){
+                System.out.println("msg if failed");
+            }
+            if(c<call){
+                System.out.println(call-c);
+            }
+            if(c>=call){
+                System.out.println("call is failed");
+            }
+            if(d<data){
+                System.out.println(data-d);
+            }  
+            if(d>=data){
+                System.out.println("data is slow");
+            }
+            }
+    }
+}

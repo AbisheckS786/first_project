@@ -1,0 +1,95 @@
+import java.util.*;
+public class Main{
+    public static void main(String args[]){
+        for(int r=1;r<=3;r++){
+            for(int s=2;s>=r;s--){
+            System.out.print(" ");
+        }
+            for(int n1=1;n1<=r;n1++){
+                System.out.print(n1);
+            }
+            for(int n2=1;n2<=r;n2++){
+                System.out.print(n2);
+            }
+            System.out.println();
+        }
+    }
+}
+//  11
+ 1212
+123123
+import java.util.*;
+public class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        for(int r=1;r<=n;r++){
+            for(int c=1;c<=n+1;c++ ){
+                System.out.print("*");
+            }
+          System.out.println(); 
+    }
+    }
+}
+//
+******
+******
+******
+******
+******
+import java.util.*;
+public class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        for(int r=1;r<=n;r++){
+            for(int c=1;c<=n+1-r;c++ ){
+                System.out.print("*");
+            }
+          System.out.println(); 
+    }
+    }
+}
+//*****
+****
+***
+**
+*
+import java.util.*;
+public class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        for(int r=1;r<=n;r++){
+            for(int c=1;c<=r;c++ ){
+                System.out.print("*");
+            }
+          System.out.println(); 
+    }
+    }
+}
+//
+*
+**
+***
+****
+*****
+import java.util.*;
+public class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        for(int r=1;r<=n;r++){
+            for(int c=1;c<=r;c++ ){
+                System.out.print(r);
+            }
+          System.out.println(); 
+    }
+    }
+}
+//
+1
+22
+333
+4444
+55555

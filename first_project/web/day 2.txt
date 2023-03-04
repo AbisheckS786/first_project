@@ -1,0 +1,94 @@
+
+import java.util.Scanner;
+
+public class Sai {
+public static void main(String args[]) {
+	Scanner sc = new Scanner(System.in);
+	int a=sc.nextInt();
+	char c='a';
+	for(int i=0;i<=a;i++) {
+		for(int j=0;j<=i;j++) {
+			System.out.print(c);
+		}
+		c++;
+	
+	System.out.println();
+	}
+}
+}
+
+import java.util.Scanner;
+
+public class Sai {
+public static void main(String args[]) {
+	Scanner sc = new Scanner(System.in);
+	int a=sc.nextInt();
+	//char c='a';
+	for(int i=0;i<=a;i++) {
+		for(int j=0;j<=i;j++) {
+			System.out.printf("%c",65+j);
+			
+		
+		}
+		//c++;
+	
+	System.out.println();
+	}
+}
+}
+--->o/p
+A
+AB
+ABC
+ABCD
+ABCDE
+ABCDEF
+ABCDEFG
+
+import java.util.Scanner;
+
+public class Sai {
+public static void main(String args[]) {
+	//Scanner sc = new Scanner(System.in);
+	//int a=sc.nextInt();
+	//char c='a';
+	for(int i=0;i<26;i++) {
+		for(int j=0;j<=i;j++) {
+			System.out.printf("%c",65+i);
+			
+		
+		}
+		//c++;
+	
+	System.out.println();
+	}
+}
+}
+--->
+0/p
+A
+BB
+CCC
+DDDD
+EEEEE
+FFFFFF
+GGGGGGG
+HHHHHHHH
+IIIIIIIII
+JJJJJJJJJJ
+KKKKKKKKKKK
+LLLLLLLLLLLL
+MMMMMMMMMMMMM
+NNNNNNNNNNNNNN
+OOOOOOOOOOOOOOO
+PPPPPPPPPPPPPPPP
+QQQQQQQQQQQQQQQQQ
+RRRRRRRRRRRRRRRRRR
+SSSSSSSSSSSSSSSSSSS
+TTTTTTTTTTTTTTTTTTTT
+UUUUUUUUUUUUUUUUUUUUU
+VVVVVVVVVVVVVVVVVVVVVV
+WWWWWWWWWWWWWWWWWWWWWWW
+XXXXXXXXXXXXXXXXXXXXXXXX
+YYYYYYYYYYYYYYYYYYYYYYYYY
+ZZZZZZZZZZZZZZZZZZZZZZZZZZ
